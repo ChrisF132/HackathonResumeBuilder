@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "Raleway Regular"
+}
+
+.root {
+    -fx-font-family: "Raleway Regular";
+}
+
+/* Force Raleway on common controls, overriding BootstrapFX */
+.label,
+.button,
+.text-field,
+.text-area {
+    -fx-font-family: "Raleway Regular" !important;
+}
+
+.display-1,
+.display-2,
+.display-3,
+.display-4,
+.display-5,
+.display-6 {
+    -fx-font-family: "Raleway Regular" !important;
+}
+
+.rounded-pill {
+    -fx-background-radius: 9999;
+    -fx-border-radius: 9999;
+}
+
+.display-1 {
+    -fx-font-size: 72px;   /* instead of 4.5rem */
+    -fx-font-weight: 300;
+    -fx-line-spacing: 1.2em;
+}
+
+.display-2 {
+    -fx-font-size: 64px;
+    -fx-font-weight: 300;
+    -fx-line-spacing: 1.2em;
+}
+
+.display-3 {
+    -fx-font-size: 56px;
+    -fx-font-weight: 300;
+    -fx-line-spacing: 1.2em;
+}
+
+.display-4 {
+    -fx-font-size: 48px;
+    -fx-font-weight: 300;
+    -fx-line-spacing: 1.2em;
+}
+
+.display-5 {
+    -fx-font-size: 40px;
+    -fx-font-weight: 400;
+    -fx-line-spacing: 1.2em;
+}
+
+.display-6 {
+    -fx-font-size: 32px;
+    -fx-font-weight: 400;
+    -fx-line-spacing: 1.2em;
+}
+
